@@ -1,8 +1,6 @@
-cantidadNumeros = Number(prompt("Ingresa la cantidad de números a mostrar:"))
+cantidadNumeros = Number(prompt("Ingresa la cantidad de números a mostrar:"));
 
-document.write("Actividad 1<br/>")
-
-document.write("Cantidad de números a mostrar: ", cantidadNumeros," (tipo de dato: ",typeof(cantidadNumeros),")")
+document.write("Cantidad de números a mostrar: ", cantidadNumeros," (tipo de dato: ",typeof(cantidadNumeros),")");
 
 encontrado = 0;
 for(i = 1; encontrado <= cantidadNumeros-1; i++){
@@ -20,4 +18,4 @@ for(i = 1; encontrado <= cantidadNumeros-1; i++){
             }
     }
     auxEntero = 0;
-}
+};
